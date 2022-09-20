@@ -17,11 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - run: echo I'm running in parallel job
+      - run: echo Im running in parallel job
   
   third-job:
     runs-on: ubuntu-latest
     needs: first-job
     
     steps:
-      - run: echo I'm running in sequential job
+      - run: echo Im running in sequential job
